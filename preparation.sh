@@ -13,7 +13,8 @@ python3.10 -m pip install setuptools==69.5.1
 #python3.10 -m pip install xformers==0.0.20 triton==2.0.0 -U
 python3.10 -m pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 torchdata==0.7.1 torchtext==0.16.2+cpu xformers==0.0.23.post1 --index-url https://download.pytorch.org/whl/cu121 -U
 python3.10 -m pip install httpx==0.24.1
-python3.10 -m pip install httpx==0.24.1
-#!python3.10 -m pip install insightface -U
+#python3.10 -m pip install httpx==0.24.1
+python3.10 -m pip python-multipart -U
+#python3.10 -m pip install insightface -U
 python3.10 -m pip install matplotlib -U
 python3.10 -m pip install ipython -U
